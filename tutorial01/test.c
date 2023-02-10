@@ -3,9 +3,9 @@
 #include <string.h>
 #include "leptjson.h"
 
-static int main_ret = 0;   // main 返回值
-static int test_count = 0; // 测试数
-static int test_pass = 0;  // 测试通过数
+static int main_ret = 0;   
+static int test_count = 0;
+static int test_pass = 0; 
 
 #define EXPECT_EQ_BASE(equality, expect, actual, format)                                                           \
     do                                                                                                             \
