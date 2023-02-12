@@ -75,7 +75,7 @@ typedef struct {
 
 ![union_layout](images/union_layout.png)
 
-我们要把之前的 `v->n` 改成 `v->u.n`。而要访问字符串的数据，则要使用 `v->u.s.s` 和 `v->u.s.len`。这种写法比较麻烦吧，其实 C11 新增了匿名 struct/union 语法，就可以采用 `v->n`、`v->s`、`v->len` 来作访问。
+我们要把之前的 `v->n` 改成 `v->u.n`。而要访问字符串的数据，则要使用 `v->u.s.s` 和 `v->u.s.len`。这种写法比较麻烦吧，其实 **C11 新增了匿名 struct/union 语法**，就可以采用 `v->n`、`v->s`、`v->len` 来作访问。
 
 ## 3. 内存管理
 

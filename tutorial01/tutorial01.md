@@ -228,7 +228,7 @@ true  = "true"
 
 常用的单元测试框架有 xUnit 系列，如 C++ 的 [Google Test](https://github.com/google/googletest)、C# 的 [NUnit](https://www.nunit.org/)。我们为了简单起见，会编写一个极简单的单元测试方式。
 
-一般来说，软件开发是以周期进行的。例如，加入一个功能，再写关于该功能的单元测试。但也有另一种软件开发方法论，称为测试驱动开发（test-driven development, TDD），它的主要循环步骤是：
+一般来说，软件开发是以周期进行的。例如，加入一个功能，再写关于该功能的单元测试。但也有另一种软件开发方法论，称为测试驱动开发程度（test-driven development, TDD），它的主要循环步骤是：
 
 1. 加入一个测试。
 2. 运行所有测试，新的测试应该会失败。
